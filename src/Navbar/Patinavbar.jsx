@@ -20,7 +20,7 @@ const Patinavbar = () => {
                     </div>
                 </div>
                 <div className="space-x-4">
-                    <Link to="/Comp/Login" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                    <Link to="/" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
                         Go to Login
                     </Link>
                     {/* <Link to="/register" className="hover:underline">Register</Link> */}
@@ -35,7 +35,7 @@ const Patinavbar = () => {
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/doctors">Doctors</Link>
-                        <Link to="/Comp/Appoinment" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                        <Link to="/appointment" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
                             Appoinment
                         </Link>
                         <Link to="/contact">Contact</Link>
